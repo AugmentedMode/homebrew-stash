@@ -1,6 +1,6 @@
 cask "stash" do
-  version "1.0.2"
-  sha256 "408dd391a1a272e490ab664ab7a36a4376c4609f545764d17b0c34fa580be5b7"
+  version "1.0.3"
+  sha256 "12c75b77829a7012868aaa082ed92d64c4a30524d0b720ceb67e20b358caff65"
 
   url "https://github.com/AugmentedMode/Stash/releases/download/v#{version}/Stash-#{version}-arm64.dmg"
   name "Stash"
