@@ -13,13 +13,12 @@ brew install --cask augmentedmode/stash/stash
 The cask downloads the GitHub Release DMG and verifies its SHA-256 checksum.
 No compiler or Apple Developer membership is needed to install it.
 
-Stash is **ad-hoc signed, not Developer ID signed or notarized**. If macOS blocks
-it, attempt to open Stash, then use **System Settings → Privacy & Security →
-Open Anyway**, confirming only if you trust the release.
-[Apple's instructions](https://support.apple.com/102445).
+Official releases from 1.0.2 onward are **Developer ID signed and notarized by Apple**.
+Open Stash from Applications and confirm the normal downloaded-app prompt.
 
-Quick paste optionally needs Accessibility permission. After an update, you may
-need to remove and re-add Stash in Privacy & Security → Accessibility.
+Quick paste optionally needs Accessibility permission. When upgrading from an
+older ad-hoc signed release, you may need to remove and re-add Stash in
+Privacy & Security → Accessibility.
 
 ## Update
 
